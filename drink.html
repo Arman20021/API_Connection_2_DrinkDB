@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap-5.3.8-dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="drink.css">
+</head>
+
+<body>
+
+    <div class="title">
+        <h1 class="d-flex justify-content-center mt-2 text-danger">Drinks Zone</h1>
+    </div>
+    <header class="d-flex justify-content-center gap-5 mt-3">
+
+        <div class="input-group mb-3 w-25">
+            <div class="input-group-prepend">
+
+            </div>
+            <input type="text" class="form-control" id="searchInput" placeholder="Search Your Drink"
+                aria-label="Username" aria-describedby="basic-addon1">
+        </div>
+        <button type="button" id="searchBtn" class="btn btn-primary  mb-3">Search</button>
+
+    </header>
+
+    <div class="main-section-container d-flex justify-content-evenly">
+        <div class="drinksList d-flex justify-content-evenly w-75" id="drinksList">
+
+        </div>
+
+<div class="addToCart">
+  <h3>Total Cart: <span id="cartCount">0</span></h3>
+
+ 
+  <div class="cart-header d-flex justify-content-between fw-bold border-bottom pb-2">
+    <span>SL</span>
+    <span>Img</span>
+    <span>Name</span>
+  </div>
+
+  <div id="cart-main-container" class="cart-main-container"></div>
+</div>
+
+
+    </div>
+
+
+    <div class="modal fade" id="productModal" tabindex="-1">
+        <div class="modal-dialog ">
+            <div class="modal-content">
+
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalTitle">Product Details</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+
+                <div class="modal-body" id="modalBody"></div>
+
+
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+                        Close
+                    </button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script src="drink.js"></script>
+    <script src="bootstrap-5.3.8-dist/js/bootstrap.js"></script>
+    <script src="bootstrap-5.3.8-dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
