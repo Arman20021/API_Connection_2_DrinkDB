@@ -1,3 +1,4 @@
+Live Link: https://aquamarine-alfajores-be02b0.netlify.app/drink.html
 <ul>
   <li>Practiced connecting with the Drink DB (TheCocktailDB) API to understand how APIs work.</li>
   <li>Fetched drink data like names, categories, ingredients, and random drinks using different endpoints.</li>
