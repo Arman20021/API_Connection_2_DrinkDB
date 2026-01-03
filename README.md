@@ -4,3 +4,4 @@
   <li>Built a feature where users can search any drink and view its details.</li>
   <li>Added a real-time “Add to Cart” system so selected drinks appear instantly in the cart.</li>
 </ul>
+![Uploading Screenshot 2026-01-03 012749.png…]()
